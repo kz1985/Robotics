@@ -1,0 +1,4 @@
+com\Tests\HomePageTest.class
+com\Tests\LoginPageTest.class
+com\Tests\DeshBoardOrderTest.class
+com\Tests\DeshBoardHomeTest.class
