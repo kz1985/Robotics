@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 10 15:46:00 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>109 seconds (109063 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.salseDataTest()'><b>salseDataTest</b><br>Test class: com.Tests.DeshBoardHomeTest<br>Parameters: Mike, Tumil, 786.0</td>
+<td></td>
+<td>3</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.pageTitleTest()'><b>pageTitleTest</b><br>Test class: com.Tests.DeshBoardHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.salseDataTest()'><b>salseDataTest</b><br>Test class: com.Tests.DeshBoardHomeTest<br>Parameters: Daraz, Khamit, 1245.0</td>
+<td></td>
+<td>2</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.salseDataTest()'><b>salseDataTest</b><br>Test class: com.Tests.DeshBoardHomeTest<br>Parameters: Chanchar, Bash, 3245.0</td>
+<td></td>
+<td>1</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardOrderTest.legsSelectionTest()'><b>legsSelectionTest</b><br>Test class: com.Tests.DeshBoardOrderTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.DeshBoardOrderTest@43dac38f</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.salseDataTest()'><b>salseDataTest</b><br>Test class: com.Tests.DeshBoardHomeTest<br>Parameters: Shukinodr, Preet, 4800.0</td>
+<td></td>
+<td>1</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.LoginPageTest.pageTitleTest()'><b>pageTitleTest</b><br>Test class: com.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.LoginPageTest@c88a337</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardOrderTest.bodySelectionTest()'><b>bodySelectionTest</b><br>Test class: com.Tests.DeshBoardOrderTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.DeshBoardOrderTest@43dac38f</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardOrderTest.pageTitleTest()'><b>pageTitleTest</b><br>Test class: com.Tests.DeshBoardOrderTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.DeshBoardOrderTest@43dac38f</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardOrderTest.heasdSelectionTest()'><b>heasdSelectionTest</b><br>Test class: com.Tests.DeshBoardOrderTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.DeshBoardOrderTest@43dac38f</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardOrderTest.shippingAddress()'><b>shippingAddress</b><br>Test class: com.Tests.DeshBoardOrderTest<br>Parameters: 508 winfield Ave, Upper darby, PA, 19082</td>
+<td></td>
+<td>2</td>
+<td>com.Tests.DeshBoardOrderTest@43dac38f</td></tr>
+<tr>
+<td title='com.Tests.HomePageTest.loginButtonTest()'><b>loginButtonTest</b><br>Test class: com.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.HomePageTest@342c38f8</td></tr>
+<tr>
+<td title='com.Tests.HomePageTest.orderButtonTest()'><b>orderButtonTest</b><br>Test class: com.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.HomePageTest@342c38f8</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.salseDataTest()'><b>salseDataTest</b><br>Test class: com.Tests.DeshBoardHomeTest<br>Parameters: MIraz, Zaman, 3210.0</td>
+<td></td>
+<td>1</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardOrderTest.orderManueTest()'><b>orderManueTest</b><br>Test class: com.Tests.DeshBoardOrderTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.DeshBoardOrderTest@43dac38f</td></tr>
+<tr>
+<td title='com.Tests.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.LoginPageTest@c88a337</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.salseDataTest()'><b>salseDataTest</b><br>Test class: com.Tests.DeshBoardHomeTest<br>Parameters: Ankit, Dash, 3254.0</td>
+<td></td>
+<td>3</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.HomePageTest.homeButtonTest()'><b>homeButtonTest</b><br>Test class: com.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.HomePageTest@342c38f8</td></tr>
+<tr>
+<td title='com.Tests.HomePageTest.pageTitleTest()'><b>pageTitleTest</b><br>Test class: com.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.HomePageTest@342c38f8</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.salseDataTest()'><b>salseDataTest</b><br>Test class: com.Tests.DeshBoardHomeTest<br>Parameters: Saraz, Amit, 845.0</td>
+<td></td>
+<td>2</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.DeshBoardHomeTest.salseDataTest()'><b>salseDataTest</b><br>Test class: com.Tests.DeshBoardHomeTest<br>Parameters: Sean, Jhon, 3251.0</td>
+<td></td>
+<td>4</td>
+<td>com.Tests.DeshBoardHomeTest@156b88f5</td></tr>
+<tr>
+<td title='com.Tests.LoginPageTest.displayNameTest()'><b>displayNameTest</b><br>Test class: com.Tests.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.Tests.LoginPageTest@c88a337</td></tr>
+<tr>
+<td title='com.Tests.HomePageTest.homePageText()'><b>homePageText</b><br>Test class: com.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.Tests.HomePageTest@342c38f8</td></tr>
+</table><p>
+</body>
+</html>
